@@ -1,0 +1,38 @@
+.main{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    -webkit-transition: .3s all linear 0s;
+    transition: .3s all linear 0s;
+}
+body{
+    overflow: hidden; 
+} 
+
+.intro{
+    position: absolute;
+    z-index: 50;
+    top: 150px;
+    left: 26%;
+    -webkit-transition: .3s opacity ease-in-out 0s;
+    transition: .3s opacity ease-in-out 0s;
+}
+
+p{
+    font-size: 2rem; 
+    font-family: "Lucida Sans";
+    font-weight: bold;
+}
+span{
+    font-family: "Lucida Sans";
+    padding-left: 20px;
+}
+
+.intro{
+    opacity: 1;
+}
+
+.go-away{
+    opacity: 0;
+}
