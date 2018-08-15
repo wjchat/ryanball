@@ -6,6 +6,7 @@
     -webkit-transition: .3s all linear 0s;
     transition: .3s all linear 0s;
 }
+
 body{
     overflow: hidden; 
 } 
