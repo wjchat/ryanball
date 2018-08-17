@@ -28,10 +28,6 @@ class Circle {
         this.dr = 10;
         this.origRad = r;
         this.color = color;
-        this.xpos;
-        this.ypos;
-        this.hypo;
-        this.angle;
         this.special === false;
 
     }
@@ -64,8 +60,7 @@ class Circle {
         }
     }
     grow() {
-        let xDist = this.x - mouse.x;
-        let yDist = this.y - mouse.y;
+
         if (Math.abs(mouse.x - this.x) <= spaceBetween && Math.abs(mouse.y - this.y) <= spaceBetween) {
             if (this.r < bigCircle) {
                 this.r += 1;
@@ -100,7 +95,7 @@ class Circle {
 
 let outline = new Circle(canvas.width / 2, canvas.height / 2, canvas.height * .2, "white");
 
-let circles = new Array();
+let circles = [];
 let x;
 let y;
 let r;
@@ -167,3 +162,5 @@ window.onclick = function (e) {
     }
 
 }
+
+

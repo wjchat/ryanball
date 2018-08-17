@@ -26,3 +26,4 @@ window.addEventListener("scroll", function () { // or window.addEventListener("s
     }
     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 }, false);
+
